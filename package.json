@@ -1,0 +1,28 @@
+{
+  "name": "snes_soundtracks",
+  "version": "1.0.0",
+  "description": "Twitter Bot for posting great SNES Music",
+  "main": "index.js",
+  "scripts": {
+      "test": "snes.js",
+      "start": "node ./snes.js",
+      "develop": "NODE_ENV=develop node snes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetzinAround/snes_soundtracks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetzinAround/snes_soundtracks/issues"
+  },
+  "homepage": "https://github.com/MetzinAround/snes_soundtracks#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node": "^15.12.0",
+    "node-schedule": "^2.0.0",
+    "twit": "^2.2.11"
+  }
+}
