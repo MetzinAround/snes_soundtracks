@@ -10,6 +10,7 @@ var schedule = require("node-schedule");
 var rule = new schedule.RecurrenceRule();
   rule.dayOfWeek = 1;
   rule.hour = 10;
+  rule.minute = 30;
   rule.tz = "Etc/GMT+4";
 
 //array to pull soundtracks from
